@@ -63,7 +63,7 @@ const NavBar = () => {
 
         <div className="mt-auto pt-6 border-t border-gray-700">
           <p className="text-xs text-center text-gray-500">
-            © 2023 Shojin Chess
+            © 2024 Shojin Chess
           </p>
         </div>
       </div>
