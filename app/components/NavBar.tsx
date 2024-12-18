@@ -11,6 +11,7 @@ const NavBar = () => {
     { name: 'Scoreboard', href: '/scoreboard', icon: '🏆' },
     { name: 'Social', href: '/social', icon: '👥' },
     { name: 'How to Play', href: '/howtoplay', icon: '❓' },
+    { name: 'OnlyInShojin', href: '/onlyinshojin', icon: '✨' },
   ];
 
   return (
@@ -62,7 +63,7 @@ const NavBar = () => {
 
         <div className="mt-auto pt-6 border-t border-gray-700">
           <p className="text-xs text-center text-gray-500">
-            © 2024 Shojin Chess
+            © 2023 Shojin Chess
           </p>
         </div>
       </div>
