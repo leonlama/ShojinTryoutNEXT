@@ -1,17 +1,24 @@
 export default function SignUpPage() {
     return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-md w-full space-y-8">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-md w-full p-6 transform transition-all relative">
+                <a 
+                    href="/"
+                    className="absolute top-4 left-4 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-colors"
+                    aria-label="Close"
+                >
+                    <span className="text-xl">&times;</span>
+                </a>
                 <div>
-                    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900 dark:text-gray-100">
+                    <h2 className="text-center text-2xl font-bold text-gray-900 dark:text-gray-100">
                         Create your account
                     </h2>
                     <p className="mt-2 text-center text-sm text-gray-600 dark:text-gray-400">
                         Join Shojin Chess and start playing today
                     </p>
                 </div>
-                <form className="mt-8 space-y-6" action="#" method="POST">
-                    <div className="rounded-md shadow-sm -space-y-px">
+                <form className="mt-6 space-y-4" action="#" method="POST">
+                    <div className="space-y-4">
                         <div>
                             <label htmlFor="username" className="sr-only">Username</label>
                             <input
@@ -19,7 +26,7 @@ export default function SignUpPage() {
                                 name="username"
                                 type="text"
                                 required
-                                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-t-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
+                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
                                 placeholder="Username"
                             />
                         </div>
@@ -31,7 +38,7 @@ export default function SignUpPage() {
                                 type="email"
                                 autoComplete="email"
                                 required
-                                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
+                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
                                 placeholder="Email address"
                             />
                         </div>
@@ -42,7 +49,7 @@ export default function SignUpPage() {
                                 name="password"
                                 type="password"
                                 required
-                                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
+                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
                                 placeholder="Password"
                             />
                         </div>
@@ -53,7 +60,7 @@ export default function SignUpPage() {
                                 name="confirm-password"
                                 type="password"
                                 required
-                                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-b-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
+                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
                                 placeholder="Confirm password"
                             />
                         </div>
@@ -75,7 +82,7 @@ export default function SignUpPage() {
                     <div>
                         <button
                             type="submit"
-                            className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+                            className="w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-colors duration-200"
                         >
                             Create Account
                         </button>

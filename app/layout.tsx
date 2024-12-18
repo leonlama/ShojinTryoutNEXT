@@ -18,17 +18,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
-          <div className="flex min-h-screen">
-            <NavBar /> {/* NavBar is included here */}
-            <div className="flex-1 flex flex-col">
-              <header className="p-4 flex justify-between items-center bg-gray-200 dark:bg-gray-800 border-b border-gray-300 dark:border-gray-700">
-                <h1 className="text-xl font-bold">Shojin Chess</h1>
-                <DarkModeToggle />
-              </header>
-              <main className="flex-grow">{children}</main>
-              <Footer />
-            </div>
+        <div className="flex min-h-screen">
+          <NavBar /> {/* NavBar is included here */}
+          <div className="flex-1 flex flex-col">
+            <header className="p-4 flex justify-between items-center bg-gray-200 dark:bg-gray-800 border-b border-gray-300 dark:border-gray-700">
+              <h1 className="text-xl font-bold">Shojin Chess</h1>
+              <DarkModeToggle />
+            </header>
+            <main className="flex-grow">{children}</main>
+            <Footer />
           </div>
+        </div>
       </body>
     </html>
   );
