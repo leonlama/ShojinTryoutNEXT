@@ -9,6 +9,7 @@ const NavBar = () => {
     { name: 'Analytics', href: '/analytics' },
     { name: 'Puzzles', href: '/puzzles' },
     { name: 'Scoreboard', href: '/scoreboard' },
+    { name: 'Social', href: '/social' },
     { name: 'How to Play', href: '/howtoplay' },
   ];
 
