@@ -31,7 +31,7 @@ export default function HowToPlay() {
                     
                     <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
                         <h3 className="text-2xl font-semibold mb-4">Rook → Catapult</h3>
-                        <p>Can eliminate all pieces in rook-movement directions without moving.</p>
+                        <p>Can eliminate first pieces in rook-movement directions without moving.</p>
                     </div>
                     
                     <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
