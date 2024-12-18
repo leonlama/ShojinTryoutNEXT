@@ -5,12 +5,12 @@ import { motion } from 'framer-motion';
 
 const NavBar = () => {
   const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'Analytics', href: '/analytics' },
-    { name: 'Puzzles', href: '/puzzles' },
-    { name: 'Scoreboard', href: '/scoreboard' },
-    { name: 'Social', href: '/social' },
-    { name: 'How to Play', href: '/howtoplay' },
+    { name: 'Home', href: '/', icon: '🏠' },
+    { name: 'Analytics', href: '/analytics', icon: '📊' },
+    { name: 'Puzzles', href: '/puzzles', icon: '🧩' },
+    { name: 'Scoreboard', href: '/scoreboard', icon: '🏆' },
+    { name: 'Social', href: '/social', icon: '👥' },
+    { name: 'How to Play', href: '/howtoplay', icon: '❓' },
   ];
 
   return (
@@ -29,7 +29,7 @@ const NavBar = () => {
               whileHover={{ scale: 1.02 }}
               className="w-full py-3 px-4 bg-opacity-20 bg-white hover:bg-green-500 hover:bg-opacity-30 text-white rounded-lg font-medium transition-colors duration-300 border border-gray-600"
             >
-              Login
+              👤 Login
             </motion.button>
           </Link>
           <Link href="/signup">
@@ -37,7 +37,7 @@ const NavBar = () => {
               whileHover={{ scale: 1.02 }}
               className="w-full py-3 px-4 bg-opacity-10 bg-white hover:bg-green-500 hover:bg-opacity-20 text-white rounded-lg font-medium transition-colors duration-300 border border-gray-600"
             >
-              Register
+              ✨ Register
             </motion.button>
           </Link>
         </div>
@@ -54,7 +54,7 @@ const NavBar = () => {
                 href={item.href} 
                 className="block transition-colors duration-300 hover:text-white"
               >
-                {item.name}
+                {item.icon} {item.name}
               </Link>
             </motion.li>
           ))}
@@ -62,7 +62,7 @@ const NavBar = () => {
 
         <div className="mt-auto pt-6 border-t border-gray-700">
           <p className="text-xs text-center text-gray-500">
-            © 2024 Shojin Chess
+            © 2023 Shojin Chess
           </p>
         </div>
       </div>
