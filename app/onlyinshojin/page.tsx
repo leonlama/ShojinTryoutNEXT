@@ -16,17 +16,17 @@ export default function OnlyInShojinPage() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                    <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-xl">
+                    <div className="p-6 bg-gray-100 dark:bg-gray-400 rounded-xl">
                         <h3 className="text-xl font-semibold mb-3">Evolution System</h3>
-                        <p className="text-gray-600 dark:text-gray-400">Evolve your pieces during gameplay for dynamic strategies</p>
+                        <p className="text-gray-600 dark:text-gray-600">Evolve your pieces during gameplay for dynamic strategies</p>
                     </div>
-                    <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-xl">
+                    <div className="p-6 bg-gray-100 dark:bg-gray-400 rounded-xl">
                         <h3 className="text-xl font-semibold mb-3">Japanese Aesthetics</h3>
-                        <p className="text-gray-600 dark:text-gray-400">Beautiful art style inspired by traditional Japanese design</p>
+                        <p className="text-gray-600 dark:text-gray-600">Beautiful art style inspired by traditional Japanese design</p>
                     </div>
-                    <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-xl">
+                    <div className="p-6 bg-gray-100 dark:bg-gray-400 rounded-xl">
                         <h3 className="text-xl font-semibold mb-3">Global Rankings</h3>
-                        <p className="text-gray-600 dark:text-gray-400">Compete with players worldwide in our unique ranking system</p>
+                        <p className="text-gray-600 dark:text-gray-600">Compete with players worldwide in our unique ranking system</p>
                     </div>
                 </div>
 

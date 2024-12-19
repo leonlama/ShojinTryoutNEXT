@@ -2,6 +2,7 @@ import './globals.css';
 import Footer from './components/Footer';
 import DarkModeToggle from './components/DarkModeToggle';
 import NavBar from './components/NavBar';
+import { ThemeProvider } from 'next-themes'
 
 export const metadata = {
   title: 'Shojin Chess',
@@ -18,17 +19,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
-        <div className="flex min-h-screen">
-          <NavBar /> {/* NavBar is included here */}
-          <div className="flex-1 flex flex-col">
-            <header className="p-4 flex justify-between items-center bg-gray-200 dark:bg-gray-800 border-b border-gray-300 dark:border-gray-700">
-              <h1 className="text-xl font-bold">Shojin Chess</h1>
-              <DarkModeToggle />
-            </header>
-            <main className="flex-grow">{children}</main>
-            <Footer />
+        <ThemeProvider attribute="class">
+          <div className="flex min-h-screen">
+            <NavBar /> {/* NavBar is included here */}
+            <div className="flex-1 flex flex-col">
+              <header className="p-4 flex justify-between items-center bg-gray-200 dark:bg-gray-700 border-b border-gray-300 dark:border-gray-600">
+                <h1 className="text-xl font-bold">Shojin Chess</h1>
+                <DarkModeToggle />
+              </header>
+              <main className="flex-grow">{children}</main>
+              <Footer />
+            </div>
           </div>
-        </div>
+        </ThemeProvider>
       </body>
     </html>
   );
