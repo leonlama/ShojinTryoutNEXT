@@ -10,6 +10,8 @@ const NavBar = () => {
     { name: 'Puzzles', href: '/puzzles', icon: '🧩' },
     { name: 'Scoreboard', href: '/scoreboard', icon: '🏆' },
     { name: 'Social', href: '/social', icon: '👥' },
+    { name: 'Profile', href: '/profile', icon: '👤' },
+    { name: 'Shop', href: '/shop', icon: '🛍️' },
     { name: 'How to Play', href: '/howtoplay', icon: '❓' },
     { name: 'OnlyInShojin', href: '/onlyinshojin', icon: '✨' },
   ];
@@ -27,16 +29,18 @@ const NavBar = () => {
         <div className="mb-10 space-y-3">
           <Link href="/login">
             <motion.button
-              whileHover={{ scale: 1.02 }}
-              className="w-full py-3 px-4 bg-opacity-20 bg-white hover:bg-green-500 hover:bg-opacity-30 text-white rounded-lg font-medium transition-colors duration-300 border border-gray-600"
+              whileHover={{ scale: 1.02, backgroundColor: 'rgba(139, 92, 246, 0.3)' }}
+              transition={{ duration: 0 }}
+              className="w-full py-3 px-4 bg-opacity-20 bg-white text-white rounded-lg font-medium transition-colors duration-300 border border-gray-600"
             >
               👤 Login
             </motion.button>
           </Link>
           <Link href="/signup">
             <motion.button
-              whileHover={{ scale: 1.02 }}
-              className="w-full py-3 px-4 bg-opacity-10 bg-white hover:bg-green-500 hover:bg-opacity-20 text-white rounded-lg font-medium transition-colors duration-300 border border-gray-600"
+              whileHover={{ scale: 1.02, backgroundColor: 'rgba(139, 92, 246, 0.2)' }}
+              transition={{ duration: 0 }}
+              className="w-full py-3 px-4 bg-opacity-10 bg-white text-white rounded-lg font-medium transition-colors duration-300 border border-gray-600"
             >
               ✨ Register
             </motion.button>

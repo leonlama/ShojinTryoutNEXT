@@ -7,7 +7,7 @@ export default function Home() {
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="bg-gray-200 dark:bg-gray-700 border-b border-gray-300 dark:border-gray-600 p-4">
             <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-              Shojin Chess Game
+              Play Now
             </h2>
           </div>
           

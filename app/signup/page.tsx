@@ -26,7 +26,7 @@ export default function SignUpPage() {
                                 name="username"
                                 type="text"
                                 required
-                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
+                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-violet-500 focus:z-10 sm:text-sm dark:bg-gray-800"
                                 placeholder="Username"
                             />
                         </div>
@@ -38,7 +38,7 @@ export default function SignUpPage() {
                                 type="email"
                                 autoComplete="email"
                                 required
-                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
+                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-violet-500 focus:z-10 sm:text-sm dark:bg-gray-800"
                                 placeholder="Email address"
                             />
                         </div>
@@ -49,7 +49,7 @@ export default function SignUpPage() {
                                 name="password"
                                 type="password"
                                 required
-                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
+                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-violet-500 focus:z-10 sm:text-sm dark:bg-gray-800"
                                 placeholder="Password"
                             />
                         </div>
@@ -60,7 +60,7 @@ export default function SignUpPage() {
                                 name="confirm-password"
                                 type="password"
                                 required
-                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm dark:bg-gray-800"
+                                className="appearance-none relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-violet-500 focus:z-10 sm:text-sm dark:bg-gray-800"
                                 placeholder="Confirm password"
                             />
                         </div>
@@ -72,17 +72,17 @@ export default function SignUpPage() {
                             name="terms"
                             type="checkbox"
                             required
-                            className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded"
+                            className="h-4 w-4 text-violet-600 focus:ring-violet-500 border-gray-300 rounded"
                         />
                         <label htmlFor="terms" className="ml-2 block text-sm text-gray-900 dark:text-gray-300">
-                            I agree to the <a href="/terms" className="text-green-600 hover:text-green-500">Terms of Service</a> and <a href="/privacy" className="text-green-600 hover:text-green-500">Privacy Policy</a>
+                            I agree to the <a href="/terms" className="text-violet-600 hover:text-violet-500">Terms of Service</a> and <a href="/privacy" className="text-violet-600 hover:text-violet-500">Privacy Policy</a>
                         </label>
                     </div>
 
                     <div>
                         <button
                             type="submit"
-                            className="w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-colors duration-200"
+                            className="w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-violet-600 hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500 transition-colors duration-200"
                         >
                             Create Account
                         </button>
@@ -91,7 +91,7 @@ export default function SignUpPage() {
                     <div className="text-center text-sm">
                         <p className="text-gray-600 dark:text-gray-400">
                             Already have an account?{' '}
-                            <a href="/login" className="font-medium text-green-600 hover:text-green-500">
+                            <a href="/login" className="font-medium text-violet-600 hover:text-violet-500">
                                 Sign in
                             </a>
                         </p>
