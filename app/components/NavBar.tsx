@@ -11,6 +11,7 @@ const NavBar = () => {
     { name: 'Scoreboard', href: '/scoreboard', icon: '🏆' },
     { name: 'Social', href: '/social', icon: '👥' },
     { name: 'How to Play', href: '/howtoplay', icon: '❓' },
+    { name: 'OnlyInShojin', href: '/onlyinshojin', icon: '✨' },
   ];
 
   return (

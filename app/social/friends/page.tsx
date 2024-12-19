@@ -5,9 +5,11 @@ export default function FriendsPage() {
         <div className="container mx-auto px-4 py-8">
             <div className="flex justify-between items-center mb-8">
                 <h1 className="text-4xl font-bold tracking-wider">Friends</h1>
-                <button className="bg-accent hover:bg-accent/90 text-white px-4 py-2 rounded-lg">
-                    Add Friend
-                </button>
+                <Link href="/social/friends/add">
+                    <button className="bg-accent hover:bg-accent/90 text-white px-4 py-2 rounded-lg">
+                        Add Friend
+                    </button>
+                </Link>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
 /* General Reset and Base Styling */
 * {
   box-sizing: border-box;
@@ -160,7 +166,7 @@ html {
 
 /* Minimal Navbar */
 .navbar {
-  background-color: var(--lightgray);
+  background-color: var(--gray-200);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: sticky;
@@ -170,7 +176,7 @@ html {
 
 /* Clean Footer */
 .footer {
-  background-color: var(--lightgray);
+  background-color: var(--gray-200);
   color: var(--gray-600);
   text-align: center;
   padding: 2rem 0;
@@ -184,7 +190,7 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: var(--lightgray);
+  background-color: var(--gray-200);
   position: relative;
   overflow: hidden;
 }
